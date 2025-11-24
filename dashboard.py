@@ -4,7 +4,7 @@ from lifelines import KaplanMeierFitter
 import matplotlib.pyplot as plt
 
 # -------- CARREGAR ARQUIVO ---------
-FILE_PATH = "https://imunogenetica.famerp.br/tabela_marcia.xlsx"
+FILE_PATH = "https://imunogenetica.famerp.br/dash/oncologia/tabela_marcia.csv"
 df = pd.read_excel(FILE_PATH)
 
 st.title("📈 Dashboard de Sobrevida (Kaplan-Meier)")
